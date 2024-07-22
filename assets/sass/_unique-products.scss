@@ -4,7 +4,20 @@
 /*=================================
   unique-products styling starts here
 =================================*/
+.unique-products{
+  padding: 75.5px 0;
 
+  .unique-designs ,.high-end{
+    @include flex-align-gap(center,80px);
+    div{
+      width: 73%;
+    }
+  }
+
+  .high-end{
+  margin-top: 10px;
+  }
+}
 /*=================================
   unique-products styling ends here
 =================================*/  
