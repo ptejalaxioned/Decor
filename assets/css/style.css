@@ -108,6 +108,20 @@ li {
 .first-caps {
   text-transform: capitalize; }
 
+p {
+  font-size: 11px;
+  letter-spacing: .5px;
+  line-height: 15px; }
+
+.buttons {
+  padding: 11px 18.5px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #2ea884;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .5px; }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -159,6 +173,40 @@ header img {
 /*=================================
   banner styling starts here
 =================================*/
+.banner {
+  padding: 31px; }
+  .banner .wrapper {
+    width: 78%;
+    display: flex;
+    justify-content: end;
+    position: relative; }
+  .banner .banner-img {
+    width: 61.5%;
+    padding-right: 26px; }
+    .banner .banner-img img {
+      height: 100%;
+      object-fit: cover; }
+  .banner .banner-content {
+    width: 46.5%;
+    padding: 34px 27px 30px;
+    background-color: #2ea884;
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+    left: 20.5%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .banner h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 55px; }
+  .banner p {
+    margin: 10px 0 22px; }
+  .banner .buttons {
+    background-color: #ffffff;
+    color: #000000;
+    text-transform: uppercase; }
+
 /*=================================
   banner styling ends here
 =================================*/

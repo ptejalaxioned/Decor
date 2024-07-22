@@ -3,7 +3,47 @@
 /*=================================
   banner styling starts here
 =================================*/
+.banner {
+  padding: 31px;
 
+  .wrapper {
+    width: 78%;
+    @include flex-justify(end);
+    position: relative;
+  }
+
+  .banner-img {
+    width: 61.5%;
+    padding-right: 26px;
+    & img {
+      @include height-obj;
+    }
+  }
+
+  .banner-content {
+    width: 46.5%;
+    padding: 34px 27px 30px;
+    background-color: $dark-green;
+    color: $white;
+    @include position-top(absolute, 2, 50%, 20.5%);
+    transform: translate(-50%, -50%);
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 55px;
+  }
+  p {
+    margin: 10px 0 22px;
+  }
+
+  .buttons {
+    background-color: $white;
+    color: $black;
+    text-transform: uppercase;
+  }
+}
 /*=================================
   banner styling ends here
-=================================*/  
+=================================*/
