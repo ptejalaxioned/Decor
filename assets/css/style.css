@@ -114,13 +114,14 @@ p {
   line-height: 15px; }
 
 .buttons {
-  padding: 11px 18.5px;
+  padding: 10px 18.5px;
   color: #ffffff;
   font-size: 15px;
   background-color: #2ea884;
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: bold;
-  letter-spacing: .5px; }
+  letter-spacing: .5px;
+  text-transform: uppercase; }
 
 /*=================================
   Header styling starts here
@@ -204,8 +205,7 @@ header img {
     margin: 10px 0 22px; }
   .banner .buttons {
     background-color: #ffffff;
-    color: #000000;
-    text-transform: uppercase; }
+    color: #000000; }
 
 /*=================================
   banner styling ends here
@@ -213,6 +213,47 @@ header img {
 /*=================================
   explore styling starts here
 =================================*/
+.explore {
+  padding: 105px 0 67.5px; }
+  .explore .explore-up {
+    margin-bottom: 13px;
+    display: flex;
+    gap: 28px; }
+  .explore .indoor-img,
+  .explore .outdoor-img {
+    position: relative; }
+  .explore .indoor-span,
+  .explore .outdoor-span {
+    position: absolute;
+    z-index: 2;
+    left: 9%;
+    top: 9.5%; }
+  .explore .explore-span {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold; }
+    .explore .explore-span::after {
+      content: "";
+      padding-left: 9px;
+      font-family: "fontAwesome";
+      font-size: 14px; }
+  .explore .offer-img {
+    position: relative; }
+  .explore .offer-div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    position: absolute;
+    z-index: 2;
+    left: 3.5%;
+    top: 13%; }
+  .explore h5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px; }
+
 /*=================================
   explore styling ends here
 =================================*/

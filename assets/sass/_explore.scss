@@ -3,7 +3,51 @@
 /*=================================
   explore styling starts here
 =================================*/
+.explore {
+  padding: 105px 0 67.5px;
 
+  .explore-up {
+    margin-bottom: 13px;
+    @include flex-gap(28px);
+  }
+
+  .indoor-img,
+  .outdoor-img {
+    position: relative;
+  }
+
+  .indoor-span,
+  .outdoor-span {
+    @include position-top(absolute, 2, 9.5%, 9%);
+  }
+
+  .explore-span {
+    @include flex-align(center);
+    font-size: 19px;
+    font-weight: bold;
+    &::after {
+      content: $right-arrow;
+      padding-left: 9px;
+      font-family: "fontAwesome";
+      font-size: 14px;
+    }
+  }
+
+  .offer-img {
+    position: relative;
+  }
+
+  .offer-div {
+    width: 30%;
+    @include flex-dir-gap(column, 21px);
+    @include position-top(absolute, 2, 13%, 3.5%);
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+  }
+}
 /*=================================
   explore styling ends here
-=================================*/  
+=================================*/
