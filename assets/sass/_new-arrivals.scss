@@ -3,7 +3,28 @@
 /*=================================
   new-arrivals styling starts here
 =================================*/
+.new-arrivals{
+  padding: 65.5px 0;
+  text-align: center;
 
+}
+
+.product-list{
+  padding: 29px 0 54px;
+  @include flex-gap(12.5px);
+  span{
+    font-size: 10px;
+  }
+ 
+  .product-name{
+  font-weight: bold;
+  }
+}
+
+.products{
+  @include flex-dir-gap(column,6.5px);
+align-items: start;
+}
 /*=================================
   new-arrivals styling ends here
 =================================*/  

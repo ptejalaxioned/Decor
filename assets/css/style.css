@@ -123,6 +123,24 @@ p {
   letter-spacing: .5px;
   text-transform: uppercase; }
 
+h3 {
+  font-size: 33px;
+  font-weight: bold; }
+
+.stars {
+  display: flex; }
+
+.stars li {
+  font-size: 9px; }
+  .stars li {
+    display: flex;
+    text-indent: -9999px; }
+  .stars li::before {
+    content: "";
+    font-family: "fontAwesome";
+    display: flex;
+    text-indent: 0; }
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -260,6 +278,25 @@ header img {
 /*=================================
   new-arrivals styling starts here
 =================================*/
+.new-arrivals {
+  padding: 65.5px 0;
+  text-align: center; }
+
+.product-list {
+  padding: 29px 0 54px;
+  display: flex;
+  gap: 12.5px; }
+  .product-list span {
+    font-size: 10px; }
+  .product-list .product-name {
+    font-weight: bold; }
+
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 6.5px;
+  align-items: start; }
+
 /*=================================
   new-arrivals styling ends here
 =================================*/

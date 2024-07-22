@@ -55,3 +55,17 @@ p{
     letter-spacing: .5px;
     @include text-trans(uppercase);
   }
+
+  h3{
+        font-size: 33px;
+        font-weight: bold;
+  }
+
+  .stars{
+    display: flex
+  }
+
+  .stars li{
+    @include font-icon($star);
+    font-size: 9px;
+  }
