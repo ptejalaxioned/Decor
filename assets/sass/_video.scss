@@ -3,7 +3,22 @@
 /*=================================
   video styling starts here
 =================================*/
+.video{
+  .wrapper{
+    width: 100%;
+    position: relative;
+  }
 
+  .play{
+    padding: 16px 23px;
+    border-radius: 76px;
+    @include font-icon($play);
+    @include position-top(absolute, 2, 50%, 50%);
+    background-color: $white;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+  }
+}
 /*=================================
   video styling ends here
 =================================*/  

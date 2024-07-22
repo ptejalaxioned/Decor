@@ -321,6 +321,28 @@ header img {
 /*=================================
   video styling starts here
 =================================*/
+.video .wrapper {
+  width: 100%;
+  position: relative; }
+.video .play {
+  padding: 16px 23px;
+  border-radius: 76px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  background-color: #ffffff;
+  font-size: 35px;
+  transform: translate(-50%, -50%); }
+  .video .play {
+    display: flex;
+    text-indent: -9999px; }
+  .video .play::before {
+    content: "";
+    font-family: "fontAwesome";
+    display: flex;
+    text-indent: 0; }
+
 /*=================================
   video styling ends here
 =================================*/
