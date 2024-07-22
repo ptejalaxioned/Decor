@@ -1,0 +1,46 @@
+@import "default/mixins";
+@import "default/variables";
+
+/*=================================
+  Header styling starts here
+=================================*/
+header {
+  .header-content {
+    @include flex-justify-align(space-between, center);
+    padding: 13px 0;
+  }
+
+  .cart {
+    @include font-icon($bag);
+  }
+
+  .user {
+    @include font-icon($user);
+  }
+
+  .header-icons {
+    @include a-styling(3px 5.5px, $black, 14px);
+    border: 2px solid $transparent;
+  }
+
+  .nav-list a {
+    @include a-styling(11.5px, $black, 10px);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+
+  .nav-list {
+    padding-right: 65px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  img {
+    width: 67%;
+  }
+}
+/*=================================
+  Header styling ends here
+=================================*/
