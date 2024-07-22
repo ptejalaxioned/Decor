@@ -4,7 +4,17 @@
 /*=================================
   most-popular styling starts here
 =================================*/
+.most-popular{
+padding: 70px 0;
 
+.product-list{
+  padding-top:42px ;
+
+}
+.most-popular-button{
+  @include flex-justify(center);
+}
+}
 /*=================================
   most-popular styling ends here
 =================================*/  

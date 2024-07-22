@@ -12,7 +12,8 @@
 .product-list{
   padding: 29px 0 54px;
   @include flex-gap(12.5px);
-  
+  flex-wrap: wrap;
+
   span{
     font-size: 10px;
   }
@@ -23,6 +24,7 @@
 }
 
 .products{
+  width: 23.8%;
   @include flex-dir-gap(column,6.5px);
 align-items: start;
 }
