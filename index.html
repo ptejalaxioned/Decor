@@ -1,382 +1,669 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Decor</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="./assets/vendor/jquery-1.8.3.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Decor</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="stylesheet" media="screen" href="./assets/vendor/jquery-1.8.3.min.js">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" media="screen" href="assets/css/style.css">
-</head>
-
-<body>
-  <!--container start-->
-  <div class="container">
-    <!--header section start-->
-    <header>
-      <div class="wrapper">
-        <div class="hamburger">
-          <span class="line line1">line1</span>
-          <span class="line line2">line2</span>
-          <span class="line line3">line3</span>
-        </div>
-        <div class="header-content">
-          <h1><a href="./index.html" title="Antiques" target="_self" class="antiques first-caps"><img
-                src="./assets/Images/logo.svg" alt="Antiques"></a></h1>
-          <nav>
-            <ul class="nav-list">
-              <li>
-                <a href="FIXME" title="All Products" target="_self" class="all-products first-caps">all products</a>
+  <body>
+    <!--container start-->
+    <div class="container">
+      <!--header section start-->
+      <header>
+        <div class="wrapper">
+          <div class="hamburger">
+            <span class="line line1">line1</span>
+            <span class="line line2">line2</span>
+            <span class="line line3">line3</span>
+          </div>
+          <div class="header-content">
+            <h1>
+              <a
+                href="./index.html"
+                title="Antiques"
+                target="_self"
+                class="antiques first-caps"
+                ><img src="./assets/Images/logo.svg" alt="Antiques"
+              /></a>
+            </h1>
+            <nav>
+              <ul class="nav-list">
+                <li>
+                  <a
+                    href="FIXME"
+                    title="All Products"
+                    target="_self"
+                    class="all-products first-caps"
+                    >all products</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="FIXME"
+                    title="Home Decor"
+                    target="_self"
+                    class="home-decor first-caps"
+                    >home decor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="FIXME"
+                    title="Garden Decor"
+                    target="_self"
+                    class="garden-decor first-caps"
+                    >garden decor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="FIXME"
+                    title="About"
+                    target="_self"
+                    class="about first-caps"
+                    >about</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="FIXME"
+                    title="Contact"
+                    target="_self"
+                    class="contact first-caps"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <ul class="header-icon-list">
+              <li class="icons icon1">
+                <a
+                  href="FIXME"
+                  target="_blank"
+                  class="cart header-icons"
+                  title="Cart"
+                  rel="noopener noreferrer"
+                  >cart</a
+                >
               </li>
-              <li>
-                <a href="FIXME" title="Home Decor" target="_self" class="home-decor first-caps">home decor</a>
-              </li>
-              <li>
-                <a href="FIXME" title="Garden Decor" target="_self" class="garden-decor first-caps">garden decor</a>
-              </li>
-              <li>
-                <a href="FIXME" title="About" target="_self" class="about first-caps">about</a>
-              </li>
-              <li>
-                <a href="FIXME" title="Contact" target="_self" class="contact first-caps">contact</a>
+              <li class="icons icon2">
+                <a
+                  href="FIXME"
+                  target="_blank"
+                  class="user header-icons"
+                  title="User"
+                  rel="noopener noreferrer"
+                  >user</a
+                >
               </li>
             </ul>
-          </nav>
-          <ul class="header-icon-list">
-            <li class="icons icon1">
-              <a href="FIXME" target="_blank" class="cart header-icons" title="Cart" rel="noopener noreferrer">cart</a>
-            </li>
-            <li class="icons icon2">
-              <a href="FIXME" target="_blank" class="user header-icons" title="User" rel="noopener noreferrer">user</a>
-            </li>
-          </ul>
+          </div>
         </div>
-      </div>
-    </header>
-    <!--header section end-->
-    <!--main section start-->
-    <main>
-      <!--banner section start-->
-      <section class="banner">
-        <div class="wrapper">
-          <figure class="banner-img"><img src="./assets/Images/hero-image.jpg" alt="Banner Img"></figure>
-          <div class="banner-content">
-            <h2 class="first-caps">crafted with care for memorable momenets.</h2>
-            <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. Error consectetur maxime
-              laudantium placeat ea mollitia vero illum officia.</p>
-            <div class="banner-button">
-              <a href="#fixme" title="Shop Now" target="_self" class="shop-now buttons">shop now</a>
+      </header>
+      <!--header section end-->
+      <!--main section start-->
+      <main>
+        <!--banner section start-->
+        <section class="banner">
+          <div class="wrapper">
+            <figure class="banner-img">
+              <img src="./assets/Images/hero-image.jpg" alt="Banner Img" />
+            </figure>
+            <div class="banner-content">
+              <h2 class="first-caps">
+                crafted with care for memorable momenets.
+              </h2>
+              <p class="single-caps">
+                lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                consectetur maxime laudantium placeat ea mollitia vero illum
+                officia.
+              </p>
+              <div class="banner-button">
+                <a
+                  href="#fixme"
+                  title="Shop Now"
+                  target="_self"
+                  class="shop-now buttons"
+                  >shop now</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!--banner section end-->
-      <!--explore section start-->
-      <section class="explore">
-        <div class="wrapper">
-          <div class="explore-up">
-            <figure class="indoor-img"><img src="./assets/Images/indore-bg.jpg" alt="Indoor Img">
-              <span class="indoor-span first-caps explore-span">explore indoor</span>
-            </figure>
-            <figure class="outdoor-img"><img src="./assets/Images/outdoor-bg.jpg" alt="Outdoor Img">
-              <span class="outdoor-span first-caps explore-span">explore outdoor</span>
-            </figure>
-          </div>
-          <div class="explore-down">
-            <figure class="offer-img"><img src="./assets/Images/offer-bg.jpg" alt="Offer Img">
-              <div class="offer-div">
-                <h4 class="first-caps">20% off on your first order</h4>
-                <div class="offer-button-div">
-                  <a href="#fixme" title="Shop Now" target="_self" class="offer-button buttons">shop now</a>
+        </section>
+        <!--banner section end-->
+        <!--explore section start-->
+        <section class="explore">
+          <div class="wrapper">
+            <div class="explore-up">
+              <figure class="indoor-img">
+                <img src="./assets/Images/indore-bg.jpg" alt="Indoor Img" />
+                <span class="indoor-span first-caps explore-span"
+                  >explore indoor</span
+                >
+              </figure>
+              <figure class="outdoor-img">
+                <img src="./assets/Images/outdoor-bg.jpg" alt="Outdoor Img" />
+                <span class="outdoor-span first-caps explore-span"
+                  >explore outdoor</span
+                >
+              </figure>
+            </div>
+            <div class="explore-down">
+              <figure class="offer-img">
+                <img src="./assets/Images/offer-bg.jpg" alt="Offer Img" />
+                <div class="offer-div">
+                  <h5 class="first-caps">20% off on your first order</h5>
+                  <div class="offer-button-div">
+                    <a
+                      href="#fixme"
+                      title="Shop Now"
+                      target="_self"
+                      class="offer-button buttons"
+                      >shop now</a
+                    >
+                  </div>
                 </div>
-              </div>
-            </figure>
-          </div>
-        </div>
-      </section>
-      <!--explore section end-->
-      <!--new-arrivals section start-->
-      <section class="new-arrivals">
-        <div class="wrapper">
-          <h3 class="first-caps">new arrivals</h3>
-          <ul class="product-list">
-            <li class="products">
-              <figure><img src="./assets/Images/product-01.jpg" alt="Hangging Plant"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">hangging plant</span>
-              <span class="product-price">$16.00</span>
-            </li>
-            <li class="products">
-              <figure><img src="./assets/Images/product-02.jpg" alt="Wooden Vases"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">wooden vases</span>
-              <span class="product-price">$30.00</span>
-            </li>
-            <li class="products">
-              <figure><img src="./assets/Images/product-03.jpg" alt="Gloden Lamps"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">gloden lamps</span>
-              <span class="product-price">$15.75</span>
-            </li>
-            <li class="products">
-              <figure><img src="./assets/Images/product-04.jpg" alt="Wooden Greenery"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">wooden greenery</span>
-              <span class="product-price">$26.00</span>
-            </li>
-          </ul>
-          <div class="new-arrivals-button">
-            <a href="#fixme" title="Explore All Products" target="_self" class="explore-all buttons all-caps">explore
-              all
-              products</a>
-          </div>
-        </div>
-      </section>
-      <!--new-arrivals section end-->
-      <!--unique-products section start-->
-      <section class="unique-products">
-        <div class="wrapper">
-          <div class="unique-designs">
-            <figure class="unique-designs-left"><img src="./assets/Images/unique-image.jpg" alt="Unique Designs">
-            </figure>
-            <div class="unique-designs-right">
-              <h3 class="first-caps">unique designs</h3>
-              <p class="single-caps">lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate suscipit
-                laboriosam laborum voluptatem praesentium provident nesciunt perferendis est et excepturi sit
-                repudiandae assumenda, nostrum voluptatibus eligendi quae, expedita temporibus. Maxime asperiores a,
-                magnam accusantium voluptatem sint assumenda nemo veniam impedit inventore non iusto nam consequuntur
-                molestiae quia sunt rem architecto.</p>
+              </figure>
             </div>
           </div>
-          <div class="high-end">
-            <div class="high-end-left">
-              <h3 class="first-caps">high end quality</h3>
-              <p class="single-caps">lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate suscipit
-                laboriosam laborum voluptatem praesentium provident nesciunt perferendis est et excepturi sit
-                repudiandae assumenda, nostrum voluptatibus eligendi quae, expedita temporibus. Maxime asperiores a,
-                magnam accusantium voluptatem sint assumenda nemo veniam impedit inventore non iusto nam consequuntur
-                molestiae quia sunt rem architecto.</p>
+        </section>
+        <!--explore section end-->
+        <!--new-arrivals section start-->
+        <section class="new-arrivals">
+          <div class="wrapper">
+            <h3 class="first-caps">new arrivals</h3>
+            <ul class="product-list">
+              <li class="products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-01.jpg"
+                    alt="Hangging Plant"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">hangging plant</span>
+                <span class="product-price">$16.00</span>
+              </li>
+              <li class="products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-02.jpg"
+                    alt="Wooden Vases"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">wooden vases</span>
+                <span class="product-price">$30.00</span>
+              </li>
+              <li class="products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-03.jpg"
+                    alt="Gloden Lamps"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">gloden lamps</span>
+                <span class="product-price">$15.75</span>
+              </li>
+              <li class="products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-04.jpg"
+                    alt="Wooden Greenery"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">wooden greenery</span>
+                <span class="product-price">$26.00</span>
+              </li>
+            </ul>
+            <div class="new-arrivals-button">
+              <a
+                href="#fixme"
+                title="Explore All Products"
+                target="_self"
+                class="explore-all buttons all-caps"
+                >explore all products</a
+              >
             </div>
-            <figure class="high-end-right"><img src="./assets/Images/highend-image.jpg" alt="High End Quality"></figure>
           </div>
-        </div>
-      </section>
-      <!--unique-products section end-->
-      <!--video section start-->
-      <section class="video">
-        <div class="wrapper">
-          <figure class="video-img"><img src="./assets/Images/video-image.jpg" alt="Video Img"></figure>
-          <span class="play">play</span>
-        </div>
-      </section>
-      <!--video section end-->
-      <!--most-popular section start-->
-      <section class="most-popular">
-        <div class="wrapper">
-          <h3 class="first-caps">most popular</h3>
-          <p class="single-caps">lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, expedita? Nostrum
-            incidunt neque perferendis maiores ipsum nemo perspiciatis.</p>
-          <ul class="popular-product-list product-list">
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-05.jpg" alt="Hand Made Pottery"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">hand made pottery</span>
-              <span class="product-price">$42.00</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-06.jpg" alt="Rattan Lamp"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">rattan lamp</span>
-              <span class="product-price">$13.00</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-07.jpg" alt="Ceramic Blue Vase"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">ceramic blue vase</span>
-              <span class="product-price">$33.50</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-08.jpg" alt="Gaungzhou Vase"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">gaungzhou vase</span>
-              <span class="product-price">$36.00</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-09.jpg" alt="Colorful Bottle"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">colorful bottle</span>
-              <span class="product-price">$18.85</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-10.jpg" alt="Unique Wooden Vase"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">unique wooden vase</span>
-              <span class="product-price">$28.00</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-11.jpg" alt="Round Pendent Lamp"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">round pendent lamp</span>
-              <span class="product-price">$35.00</span>
-            </li>
-            <li class="popular-products products">
-              <figure><img src="./assets/Images/product-12.jpg" alt="Metal Hanging Lights"></figure>
-              <ul class="stars">
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-                <li>star</li>
-              </ul>
-              <span class="product-name first-caps">metal hanging lights</span>
-              <span class="product-price">$24.00</span>
-            </li>
-          </ul>
-          <div class="most-popular-button">
-            <a href="#fixme" title="Explore All Products" target="_self" class="explore-all buttons all-caps">explore
-              all
-              products</a>
+        </section>
+        <!--new-arrivals section end-->
+        <!--unique-products section start-->
+        <section class="unique-products">
+          <div class="wrapper">
+            <div class="unique-designs">
+              <figure class="unique-designs-left">
+                <img
+                  src="./assets/Images/unique-image.jpg"
+                  alt="Unique Designs"
+                />
+              </figure>
+              <div class="unique-designs-right">
+                <h3 class="first-caps">unique designs</h3>
+                <p class="single-caps">
+                  lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptate suscipit laboriosam laborum voluptatem praesentium
+                  provident nesciunt perferendis est et excepturi sit
+                  repudiandae assumenda, nostrum voluptatibus eligendi quae,
+                  expedita temporibus. Maxime asperiores a, magnam accusantium
+                  voluptatem sint assumenda nemo veniam impedit inventore non
+                  iusto nam consequuntur molestiae quia sunt rem architecto.
+                </p>
+              </div>
+            </div>
+            <div class="high-end">
+              <div class="high-end-left">
+                <h3 class="first-caps">high end quality</h3>
+                <p class="single-caps">
+                  lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptate suscipit laboriosam laborum voluptatem praesentium
+                  provident nesciunt perferendis est et excepturi sit
+                  repudiandae assumenda, nostrum voluptatibus eligendi quae,
+                  expedita temporibus. Maxime asperiores a, magnam accusantium
+                  voluptatem sint assumenda nemo veniam impedit inventore non
+                  iusto nam consequuntur molestiae quia sunt rem architecto.
+                </p>
+              </div>
+              <figure class="high-end-right">
+                <img
+                  src="./assets/Images/highend-image.jpg"
+                  alt="High End Quality"
+                />
+              </figure>
+            </div>
           </div>
-        </div>
-      </section>
-      <!--most-popular section end-->
-      <!--review section start-->
-      <section class="review">
-        <div class="wrapper">
-          <h3 class="single-caps">this is what make us different Hear from our customers.</h3>
-          <ul class="review-list">
-            <li class="review-li">
-              <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam rem, nostrum
-                laborum tenetur molestias natus facilis modi dolores nemo qui nobis unde laudantium praesentium.</p>
-              <div class="profiles">
-                <figure class="person-img"><img src="./assets/Images/testimonials-image.png" alt="Person1"></figure>
-                <span class="name first-caps">mike sendler</span>
-              </div>
-            </li>
-            <li class="review-li">
-              <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam rem, nostrum
-                laborum tenetur molestias natus facilis modi dolores nemo qui nobis unde laudantium praesentium.</p>
-              <div class="profiles">
-                <figure class="person-img"><img src="./assets/Images/testimonials-image02.png" alt="Person2"></figure>
-                <span class="name first-caps">mellisa miner</span>
-              </div>
-            </li>
-            <li class="review-li">
-              <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam rem, nostrum
-                laborum tenetur molestias natus facilis modi dolores nemo qui nobis unde laudantium praesentium.</p>
-              <div class="profiles">
-                <figure class="person-img"><img src="./assets/Images/testimonials-image03.png" alt="Person3"></figure>
-                <span class="name first-caps">andrew woods</span>
-              </div>
-            </li>
-            <li class="review-li">
-              <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam rem, nostrum
-                laborum tenetur molestias natus facilis modi dolores nemo qui nobis unde laudantium praesentium.</p>
-              <div class="profiles">
-                <figure class="person-img"><img src="./assets/Images/testimonials-image04.png" alt="Person4"></figure>
-                <span class="name first-caps">jenny sanders</span>
-              </div>
-            </li>
-            <li class="review-li">
-              <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam rem, nostrum
-                laborum tenetur molestias natus facilis modi dolores nemo qui nobis unde laudantium praesentium.</p>
-              <div class="profiles">
-                <figure class="person-img"><img src="./assets/Images/testimonials-image05.png" alt="Person5"></figure>
-                <span class="name first-caps">staven moore</span>
-              </div>
-            </li>
-            <li class="review-li">
-              <p class="single-caps">lorem ipsum dolor sit amet consectetur adipisicing elit. In magnam rem, nostrum
-                laborum tenetur molestias natus facilis modi dolores nemo qui nobis unde laudantium praesentium.</p>
-              <div class="profiles">
-                <figure class="person-img"><img src="./assets/Images/testimonials-image06.png" alt="Person6"></figure>
-                <span class="name first-caps">alicia hilson</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--review section end-->
-    </main>
-    <!--main section end-->
+        </section>
+        <!--unique-products section end-->
+        <!--video section start-->
+        <section class="video">
+          <div class="wrapper">
+            <figure class="video-img">
+              <img src="./assets/Images/video-image.jpg" alt="Video Img" />
+            </figure>
+            <span class="play">play</span>
+          </div>
+        </section>
+        <!--video section end-->
+        <!--most-popular section start-->
+        <section class="most-popular">
+          <div class="wrapper">
+            <h3 class="first-caps">most popular</h3>
+            <p class="single-caps">
+              lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+              expedita? Nostrum incidunt neque perferendis maiores ipsum nemo
+              perspiciatis.
+            </p>
+            <ul class="popular-product-list product-list">
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-05.jpg"
+                    alt="Hand Made Pottery"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">hand made pottery</span>
+                <span class="product-price">$42.00</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img src="./assets/Images/product-06.jpg" alt="Rattan Lamp" />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">rattan lamp</span>
+                <span class="product-price">$13.00</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-07.jpg"
+                    alt="Ceramic Blue Vase"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">ceramic blue vase</span>
+                <span class="product-price">$33.50</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-08.jpg"
+                    alt="Gaungzhou Vase"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">gaungzhou vase</span>
+                <span class="product-price">$36.00</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-09.jpg"
+                    alt="Colorful Bottle"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">colorful bottle</span>
+                <span class="product-price">$18.85</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-10.jpg"
+                    alt="Unique Wooden Vase"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">unique wooden vase</span>
+                <span class="product-price">$28.00</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-11.jpg"
+                    alt="Round Pendent Lamp"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps">round pendent lamp</span>
+                <span class="product-price">$35.00</span>
+              </li>
+              <li class="popular-products products">
+                <figure>
+                  <img
+                    src="./assets/Images/product-12.jpg"
+                    alt="Metal Hanging Lights"
+                  />
+                </figure>
+                <ul class="stars">
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                  <li>star</li>
+                </ul>
+                <span class="product-name first-caps"
+                  >metal hanging lights</span
+                >
+                <span class="product-price">$24.00</span>
+              </li>
+            </ul>
+            <div class="most-popular-button">
+              <a
+                href="#fixme"
+                title="Explore All Products"
+                target="_self"
+                class="explore-all buttons all-caps"
+                >explore all products</a
+              >
+            </div>
+          </div>
+        </section>
+        <!--most-popular section end-->
+        <!--review section start-->
+        <section class="review">
+          <div class="wrapper">
+            <h3 class="single-caps">
+              this is what make us different Hear from our customers.
+            </h3>
+            <ul class="review-list">
+              <li class="review-li">
+                <p class="single-caps">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  magnam rem, nostrum laborum tenetur molestias natus facilis
+                  modi dolores nemo qui nobis unde laudantium praesentium.
+                </p>
+                <div class="profiles">
+                  <figure class="person-img">
+                    <img
+                      src="./assets/Images/testimonials-image.png"
+                      alt="Person1"
+                    />
+                  </figure>
+                  <span class="name first-caps">mike sendler</span>
+                </div>
+              </li>
+              <li class="review-li">
+                <p class="single-caps">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  magnam rem, nostrum laborum tenetur molestias natus facilis
+                  modi dolores nemo qui nobis unde laudantium praesentium.
+                </p>
+                <div class="profiles">
+                  <figure class="person-img">
+                    <img
+                      src="./assets/Images/testimonials-image02.png"
+                      alt="Person2"
+                    />
+                  </figure>
+                  <span class="name first-caps">mellisa miner</span>
+                </div>
+              </li>
+              <li class="review-li">
+                <p class="single-caps">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  magnam rem, nostrum laborum tenetur molestias natus facilis
+                  modi dolores nemo qui nobis unde laudantium praesentium.
+                </p>
+                <div class="profiles">
+                  <figure class="person-img">
+                    <img
+                      src="./assets/Images/testimonials-image03.png"
+                      alt="Person3"
+                    />
+                  </figure>
+                  <span class="name first-caps">andrew woods</span>
+                </div>
+              </li>
+              <li class="review-li">
+                <p class="single-caps">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  magnam rem, nostrum laborum tenetur molestias natus facilis
+                  modi dolores nemo qui nobis unde laudantium praesentium.
+                </p>
+                <div class="profiles">
+                  <figure class="person-img">
+                    <img
+                      src="./assets/Images/testimonials-image04.png"
+                      alt="Person4"
+                    />
+                  </figure>
+                  <span class="name first-caps">jenny sanders</span>
+                </div>
+              </li>
+              <li class="review-li">
+                <p class="single-caps">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  magnam rem, nostrum laborum tenetur molestias natus facilis
+                  modi dolores nemo qui nobis unde laudantium praesentium.
+                </p>
+                <div class="profiles">
+                  <figure class="person-img">
+                    <img
+                      src="./assets/Images/testimonials-image05.png"
+                      alt="Person5"
+                    />
+                  </figure>
+                  <span class="name first-caps">staven moore</span>
+                </div>
+              </li>
+              <li class="review-li">
+                <p class="single-caps">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                  magnam rem, nostrum laborum tenetur molestias natus facilis
+                  modi dolores nemo qui nobis unde laudantium praesentium.
+                </p>
+                <div class="profiles">
+                  <figure class="person-img">
+                    <img
+                      src="./assets/Images/testimonials-image06.png"
+                      alt="Person6"
+                    />
+                  </figure>
+                  <span class="name first-caps">alicia hilson</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--review section end-->
+        <!--follow section start-->
+        <section class="follow">
+          <div class="wrapper">
+            <a
+              href="FIXME"
+              target="_blank"
+              class="instagram header-icons"
+              title="Instagram"
+              rel="noopener noreferrer"
+              >instagram</a
+            >
+            <h4 class="single-caps">follow @antiques</h4>
+            <p class="single-caps">
+              lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              libero illo officiis temporibus eum.
+            </p>
+            <ul class="product-img-list">
+              <li class="product-img">
+                <img src="assets/Images/product-02.jpg" alt="Product1" />
+              </li>
+              <li class="product-img">
+                <img src="assets/Images/product-03.jpg" alt="Product2" />
+              </li>
+              <li class="product-img">
+                <img src="assets/Images/product-04.jpg" alt="Product3" />
+              </li>
+              <li class="product-img">
+                <img src="assets/Images/product-05.jpg" alt="Product4" />
+              </li>
+              <li class="product-img">
+                <img src="assets/Images/product-06.jpg" alt="Product5" />
+              </li>
+            </ul>
+            <ul class="feature-list">
+              <li class="features">
+                <span class="feature-icon truck">icon</span>
+                <h6 class="first-caps">free shipping</h6>
+                <p class="single-caps">
+                  lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </li>
+              <li class="features">
+                <span class="feature-icon return">icon</span>
+                <h6 class="first-caps">30 days return</h6>
+                <p class="single-caps">
+                  lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </li>
+              <li class="features">
+                <span class="feature-icon percent">icon</span>
+                <h6 class="first-caps">best offers</h6>
+                <p class="single-caps">
+                  lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </li>
+              <li class="features">
+                <span class="feature-icon lock">icon</span>
+                <h6 class="first-caps">secure payment</h6>
+                <p class="single-caps">
+                  lorem, ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--follow section end-->
+      </main>
+      <!--main section end-->
 
-    <!--footer section start-->
-    <footer>
-
-    </footer>
-    <!--footer section end-->
-
-  </div>
-  <!--container end-->
-  <script src="assets/js/script.js"></script>
-</body>
-
+      <!--footer section start-->
+      <footer></footer>
+      <!--footer section end-->
+    </div>
+    <!--container end-->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
